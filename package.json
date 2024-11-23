@@ -3,6 +3,7 @@
 	"displayName": "Debug Info",
 	"version": "1.0.0",
 	"description": "Easy display of debug info",
+	"license": "MIT",
 	"keywords": [
 		"unity",
 		"debug"
