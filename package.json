@@ -9,8 +9,9 @@
 		"debug"
 	],
 	"dependencies": {
-		"com.unity.ugui": "1.0.0",
-		"com.overimagined.singleton": "1.0.2"
+		"com.unity.ugui": "1.0.0",		
+    	"com.unity.textmeshpro": "3.0.7",
+		"com.overimagined.singleton": "1.0.5"
 	},
 	"documentationUrl": "https://github.com/mic-code/DebugInfo",
 	"licensesUrl": "https://github.com/mic-code/DebugInfo/blob/master/LICENSE",
