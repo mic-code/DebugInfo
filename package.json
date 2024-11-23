@@ -1,19 +1,21 @@
 {
-  "name": "com.overimagined.debuginfo",
-  "displayName": "Debug Info",
-  "version": "1.0.0",
-  "description": "Easy display of debug info",
-  "keywords": [
-    "Debug"
-  ],
-  "category": "Text Rendering",
-  "dependencies": {
-    "com.unity.ugui": "1.0.0",
-	"com.overimagined.singleton": "1.0.1"
-  },
-  "documentationUrl": "https://github.com/mic-code/DebugInfo",
-  "repository": {
-    "url": "https://github.com/mic-code/DebugInfo.git",
-    "type": "git"
-  }
+	"name": "com.overimagined.debuginfo",
+	"displayName": "Debug Info",
+	"version": "1.0.0",
+	"description": "Easy display of debug info",
+	"keywords": [
+		"unity",
+		"debug"
+	],
+	"dependencies": {
+		"com.unity.ugui": "1.0.0",
+		"com.overimagined.singleton": "1.0.2"
+	},
+	"documentationUrl": "https://github.com/mic-code/DebugInfo",
+	"licensesUrl": "https://github.com/mic-code/DebugInfo/blob/master/LICENSE",
+	"author": {
+		"name": "Michael Yuen",
+		"email": "michael@overimagined.com",
+		"url": "https://www.overimagined.com"
+	}
 }
