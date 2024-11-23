@@ -8,7 +8,8 @@
   ],
   "category": "Text Rendering",
   "dependencies": {
-    "com.unity.ugui": "1.0.0"
+    "com.unity.ugui": "1.0.0",
+	"com.overimagined.singleton": "git@github.com:mic-code/Singleton.git"
   },
   "documentationUrl": "https://github.com/mic-code/DebugInfo",
   "repository": {
