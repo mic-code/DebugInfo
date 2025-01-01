@@ -170,6 +170,16 @@ public class DebugInfo : SingletonMonoManager<DebugInfo>
         Instance.infos.Clear();
     }
 
+    public static void ToggleVisible()
+    {
+        Instance.builder.ToggleVisible();
+    }
+
+    public static void SetVisible(bool isOn)
+    {
+        Instance.builder.SetVisible(isOn);
+    }
+
     void Update()
     {
         var list = Instance.pendingFlip ? Instance.pendingSets2 : Instance.pendingSets1;

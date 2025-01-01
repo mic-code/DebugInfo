@@ -82,6 +82,16 @@ public class DebugInfoBuilder
         return tmpText;
     }
 
+    public void ToggleVisible()
+    {
+        root.gameObject.SetActive(!root.gameObject.activeSelf);
+    }
+
+    public void SetVisible(bool isOn)
+    {
+        root.gameObject.SetActive(isOn);
+    }
+
     public void Destroy()
     {
         Object.Destroy(root);
